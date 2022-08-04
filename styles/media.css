@@ -1,0 +1,88 @@
+@media(max-width: 992px) {
+    .main__items-item {
+        width: 50%;
+    }
+
+    .main__items {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    .main__content-headphones {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media(max-width: 576px) {
+    .main__content-headphonesinfo {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        row-gap: 20px;
+    }
+
+    .main__content-headphones {
+        row-gap: 20px;
+    }
+
+    .main__content-headphonescase {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        row-gap: 20px;
+    }
+
+    .header__content-title {
+        text-align: center;
+        font-size: 75px;
+    }
+
+    .main__content-infoleft {
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 480px) {
+    .headphone {
+        max-width: 100%;
+    }
+
+    .footer__content {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .footer__content-links {
+        margin-left: 20px;
+    }
+
+    .header__content-title {
+        font-size: 50px;
+    }
+
+}
+
+@media(max-width: 375px) {
+    .main__content-headphonesimg::after {
+        display: none;
+    }
+
+    .main__content-headphonesimg::before {
+        display: none;
+    }
+
+    .header__nav-items {
+        flex-direction: column;
+    }
+
+    .headphonecase {
+        width: 100%;
+    }
+}
