@@ -67,9 +67,6 @@
         font-size: 50px;
     }
 
-}
-
-@media(max-width: 375px) {
     .main__content-headphonesimg::after {
         display: none;
     }
@@ -85,4 +82,6 @@
     .headphonecase {
         width: 100%;
     }
+
 }
+
